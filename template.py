@@ -30,7 +30,7 @@ class Game:
         fps = 60 # Frame per second
 
         while run:
-            clock.tick(60)
+            clock.tick(fps)
 
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
